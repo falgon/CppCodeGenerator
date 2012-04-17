@@ -1,0 +1,32 @@
+C++ Code Generator.
+
+Usage:
+gencpp -[Mode]=parameter
+
+[Mode] - [parameter] -[description]:
+include - includefile - preprocessor's #include
+define - define value,sinbole,etc... - preprocessor's #define
+if_m - define value,sinbole,etc... - preprocessor's #if
+ifdef - define value,sinbole,etc... - preprocessor's #ifdef
+ifndef - define value,sinbole,etc... - preprocessor's #ifndef
+elif - define value,sinbole,etc... - preprocessor's #elif
+else_m - define value,sinbole,etc... - preprocessor's #else
+pragma - define value,sinbole,etc... - preprocessor's #pragma
+sharp - define value,sinbole,etc... - preprocessor's #
+alignas - Type - alignas(since C++11)
+alignof - value,etc... - alignof(since C++11)
+asm - Assembly code - inline Assembler.
+function - function return type - function
+functoin_try - functoin return type - function try brock
+function_throw - function return type - exception handing
+template_function - function return type - template function
+template_class - class name - template class
+template_struct - struct name - template struct
+union - union name - union
+switch - case's number - switch brock
+for - for requirement - for brock
+range_for - variable and range - range for(since C++11)
+while - while requirement - while block
+do - do requirement - do block
+if - if requirement - if block
+try - catch parameter type - try and catch brock
